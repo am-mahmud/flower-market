@@ -22,6 +22,10 @@ main {
   margin: 0 auto;
 }
 
+main > section{
+    margin-top: 130px;
+}
+
 .primary-color {
   color: #e95a08;
 }
@@ -32,6 +36,25 @@ main {
 
 .tertiary-color {
   color: rgba(0, 0, 0, 0.5);
+}
+
+.section-title{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.section-description{
+    font-size: 1.2rem;
+    margin-top: 16px;
+}
+
+.btn-primary{
+    background-color: #e95a08;
+    color: white;
+    padding: 18px 80px;
+    border: none;
+    width: 100%;
 }
 
 /* Navbar style */
@@ -81,6 +104,29 @@ nav {
 .banner-description {
   font-size: 1.35rem;
 }
+
+
+/* Main Style */
+
+.our-plants{
+    text-align: center;
+}
+
+.flower-cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.flower-card{
+    margin-top: 50px;
+    height: 485px;
+    width: 270px;
+}
+
+
+
+
+
 
 @media screen and (max-width: 576px) {
    
