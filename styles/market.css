@@ -32,6 +32,10 @@ main{
     color: #a2b393;
 }
 
+.tertiary-color{
+    color: rgba(0, 0, 0, 0.5);
+}
+
 /* Navbar style */
 
 nav{
@@ -57,4 +61,26 @@ nav{
 .nav-items li a{
    text-decoration: none;
 }
-    
+
+/* Hero Style */
+
+.banner-container{
+    margin-top: 120px;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.banner-items{
+    width: 540px;
+}
+
+.banner-title{
+    font-size: 4rem;
+    line-height: 1.1;
+    margin: 0;
+}
+
+.banner-description{
+    font-size: 1.35rem;
+}
+
