@@ -1,16 +1,8 @@
-## 🌟 WELCOME TO ( সহজ সরল সিম্পল ) ASSIGNMENT-002 😎
 
-### 📅 Deadline For 60 marks: 25th July, 2025 (11:59 pm ⏱️)
+- 📂 **GitHub Repository:** [https://github.com/am-mahmud/flower-market]
+- 🌐 **Live Link:** [https://am-mahmud.github.io/flower-market/]
 
-### 📅 Deadline For 50 marks: 26th July, 2025 (11:59 pm ⏱️)
-
-### 📅 Deadline For 30 marks:\*\* Any time after 26th July.
-
----
-
-## ✅ Main Requirements (50 Marks)
-
-### 1. Navbar
+### =1. Navbar
 
 - **Logo/Website name** on the left
 - **Menu items** on the right with **cart icon**
@@ -67,17 +59,11 @@
 - **Home, features link items** just like Figma
 - **Mobile Responsiveness:** Responsive design like Figma
 
----
-
-## 🧪 Challenges Part ( 10 Mark)
-
 ### Latest Deal Section
 
 - **Title and subtitles**
 - **Card layout** like Figma
 - **Mobile Responsiveness:** Show a card on display like Figma
-
----
 
 ### Trusted Plant Lover Badge
 
@@ -86,9 +72,7 @@
 
 ---
 
-## 🕛 Optional Part ( 0 Marks)
-
-`⚠️ You wont get any support for Optional part. Search Google and try it yourself`
+## Optional Part 
 
 - Create an Animation for Trusted Plant Lover Badge
 
@@ -99,23 +83,7 @@
 ## ⚙️ Technology Stack
 
 - HTML
-- CSS (Vanilla/ Talwind CSS only)
-- ⚠️ **No libraries (e.g., DaisyUI, Flowbite) allowed.**
+- CSS (Vanilla)
 
----
 
-## 📌 Rules
 
-- ✅ Minimum **5 meaningful commits** required.
-- ❌ No Lorem Ipsum or dummy placeholder text. Use relevant content only.
-
----
-
-## 🔗 What to Submit
-
-- 📂 **GitHub Repository:**
-- 🌐 **Live Link:**
-
----
-
-# Let's Code and Achieve your Dream 🎯
