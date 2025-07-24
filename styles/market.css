@@ -55,6 +55,8 @@ main > section {
   padding: 18px 80px;
   border: none;
   width: 100%;
+  font-size: 1rem;
+  white-space: nowrap;
 }
 
 /* Navbar style */
@@ -197,8 +199,13 @@ nav {
   }
 
   .flower-card {
+    max-width: 170px;
     width: 100%;
   }
 
-  
+  .flower-card .btn-primary{
+    font-size: 0.9rem;
+    padding: 8px 12px;
+  }
+
 }
