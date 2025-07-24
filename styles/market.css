@@ -22,8 +22,8 @@ main {
   margin: 0 auto;
 }
 
-main > section{
-    margin-top: 130px;
+main > section {
+  margin-top: 130px;
 }
 
 .primary-color {
@@ -38,23 +38,23 @@ main > section{
   color: rgba(0, 0, 0, 0.5);
 }
 
-.section-title{
-    font-size: 3rem;
-    font-weight: bold;
-    margin-bottom: 0;
+.section-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 0;
 }
 
-.section-description{
-    font-size: 1.2rem;
-    margin-top: 16px;
+.section-description {
+  font-size: 1.2rem;
+  margin-top: 16px;
 }
 
-.btn-primary{
-    background-color: #e95a08;
-    color: white;
-    padding: 18px 80px;
-    border: none;
-    width: 100%;
+.btn-primary {
+  background-color: #e95a08;
+  color: white;
+  padding: 18px 80px;
+  border: none;
+  width: 100%;
 }
 
 /* Navbar style */
@@ -105,37 +105,39 @@ nav {
   font-size: 1.35rem;
 }
 
-
 /* Main Style */
 
-.our-plants{
-    text-align: center;
+.our-plants {
+  text-align: center;
 }
 
-.flower-cards{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
+.flower-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
-.flower-card{
-    margin-top: 50px;
-    height: 485px;
-    width: 270px;
+.flower-card {
+  margin-top: 50px;
+  height: 485px;
+  width: 270px;
 }
-
 
 
 
 
 
 @media screen and (max-width: 576px) {
-   
-    /* Shared Style */
+  /* Shared Style */
 
-    header{
-        max-width: 392px;
-        margin: 2px auto; 
-    }
+  /* header {
+    max-width: 392px;
+    margin: 2px auto;
+  } */
+
+  /* main {
+    max-width: 392px;
+    margin: 0 auto;
+  } */
 
   /* Navbar section */
   nav {
@@ -154,26 +156,49 @@ nav {
 
   /* Hero Section */
 
-  .banner-container{
+  .banner-container {
     flex-direction: column-reverse;
   }
 
-  .banner-container img{
-    width: 392px;
+  .banner-container img {
+    width: 100%;
+    height: auto;
   }
 
-  .banner-items{
+  .banner-items {
     width: 100%;
   }
 
-  .banner-title{
+  .banner-title {
     margin-top: 10px;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
   }
-  
-  .banner-description{
+
+  .banner-description { 
     font-size: 1rem;
   }
 
+  /* Our plants section */
+
+  .section-title {
+    margin-top: 10px;
+    font-size: 1.8rem;
+  }
+
+  .section-description{
+    font-size: 0.8rem;
+  }
+
+  .flower-cards{
+    grid-template-columns: repeat(1,1fr);
+    gap: 8px;
+    justify-content: center;
+  }
+
+ .flower-card {
+  width: 100%;
+  height: auto;
 }
 
+  
+}
