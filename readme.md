@@ -2,7 +2,7 @@
 - 📂 **GitHub Repository:** [https://github.com/am-mahmud/flower-market]
 - 🌐 **Live Link:** [https://am-mahmud.github.io/flower-market/]
 
-### =1. Navbar
+### 1. Navbar
 
 - **Logo/Website name** on the left
 - **Menu items** on the right with **cart icon**
