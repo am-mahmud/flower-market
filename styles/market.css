@@ -340,5 +340,16 @@ nav {
     width: 100%;
   }
 
-  
+  /* Footer section */
+
+  .footer-container{
+    margin-top: 80px;
+    grid-template-columns: 1fr;
+    margin-bottom: 0;
+    gap: 10px;
+  }
+
+
+
+
 }
