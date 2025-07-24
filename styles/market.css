@@ -241,6 +241,10 @@ nav {
   margin-top: 40px;
  }
 
+ body{
+  width: 100%;
+ }
+
   /* Navbar section */
   nav {
     justify-content: space-between;
@@ -343,11 +347,21 @@ nav {
   /* Footer section */
 
   .footer-container{
-    margin-top: 80px;
+    margin-top: 60px;
     grid-template-columns: 1fr;
     margin-bottom: 0;
     gap: 10px;
+    align-content: start;
   }
+
+  .footer-container p{
+    margin-bottom: 0;
+  }
+
+  .footer-container ul{
+    padding-left: 0;
+  }
+
 
 
 
