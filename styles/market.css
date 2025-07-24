@@ -114,12 +114,20 @@ nav {
 .flower-cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-items: center; 
 }
 
 .flower-card {
   margin-top: 50px;
-  height: 485px;
-  width: 280px;
+  text-align: center;
+  width: 100%;                           
+  max-width: 280px;
+}
+
+.flower-card img {
+  width: 100%;
+  height: auto;
 }
 
 
@@ -128,16 +136,6 @@ nav {
 
 @media screen and (max-width: 576px) {
   /* Shared Style */
-
-  /* header {
-    max-width: 392px;
-    margin: 2px auto;
-  } */
-
-  /* main {
-    max-width: 392px;
-    margin: 0 auto;
-  } */
 
   main > section {
   margin-top: 40px;
@@ -194,14 +192,12 @@ nav {
   }
 
   .flower-cards{
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(2,1fr);
     gap: 8px;
-    justify-content: center;
   }
 
   .flower-card {
     width: 100%;
-    height: auto;
   }
 
   
