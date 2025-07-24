@@ -166,11 +166,18 @@ nav {
 
 .badge-img{
   height: 225px;
-  width: 250px;
+  width: 225px;
   position: absolute;
   margin-left: -120px;
   margin-top: -110px;
+  animation: spininfinite 20s linear infinite;
 }
+
+@keyframes spininfinite{
+  from{transform: rotate(0deg);}
+  to{transform: rotate(360deg);}
+}
+
 
 
 /* Latest Deals */
