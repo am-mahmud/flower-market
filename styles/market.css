@@ -268,7 +268,7 @@ nav {
   margin-top: 40px;
   display: grid;
   grid-template-columns: 380px 1fr;
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(1, 1fr);
   gap: 20px;
 }
 
