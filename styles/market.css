@@ -133,6 +133,32 @@ nav {
 }
 
 
+/* Flower Plant Section */
+
+.flower-plant{
+  justify-content: space-between;
+  gap: 40px;
+  align-items: center;
+}
+
+.flower-plant ul li{
+  font-weight: 300;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.flower-store-img{
+  position: relative;
+}
+
+.badge-img{
+  height: 265px;
+  width: 280px;
+  position: absolute;
+  margin-left: -140px;
+  margin-top: -140px;
+}
+
 
 
 
