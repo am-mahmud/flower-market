@@ -17,7 +17,12 @@ header {
   margin: 5px auto;
 }
 
-main {
+main{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+footer{
   max-width: 1280px;
   margin: 0 auto;
 }
@@ -193,7 +198,31 @@ nav {
   font-size: 1rem;
 }
 
+/* Footer Section */
 
+.footer-container{
+  margin-top: 120px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 110px;
+  align-items: start; 
+}
+
+.footer-container .social-media{
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.footer-container ul li{
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.footer-container ul li a{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.5);
+}
 
 
 
@@ -310,4 +339,6 @@ nav {
   .join-us input[type="submit"] {
     width: 100%;
   }
+
+  
 }
