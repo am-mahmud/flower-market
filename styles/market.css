@@ -17,12 +17,12 @@ header {
   margin: 5px auto;
 }
 
-main{
+main {
   max-width: 1280px;
   margin: 0 auto;
 }
 
-footer{
+footer {
   max-width: 1280px;
   margin: 0 auto;
 }
@@ -116,11 +116,11 @@ nav {
   text-align: center;
 }
 
-.our-plants-text{
+.our-plants-text {
   justify-items: center;
 }
 
-.our-plants-text p{
+.our-plants-text p {
   text-wrap: wrap;
   max-width: 850px;
   width: 100%;
@@ -130,13 +130,13 @@ nav {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
-  justify-items: center; 
+  justify-items: center;
 }
 
 .flower-card {
   margin-top: 50px;
   text-align: center;
-  width: 100%;                           
+  width: 100%;
 }
 
 .flower-card img {
@@ -144,26 +144,25 @@ nav {
   height: auto;
 }
 
-
 /* Flower Plant Section */
 
-.flower-plant{
+.flower-plant {
   justify-content: space-between;
   gap: 40px;
   align-items: center;
 }
 
-.flower-plant ul li{
+.flower-plant ul li {
   font-weight: 300;
   margin-bottom: 20px;
   width: 100%;
 }
 
-.flower-store-img{
+.flower-store-img {
   position: relative;
 }
 
-.badge-img{
+.badge-img {
   height: 225px;
   width: 225px;
   position: absolute;
@@ -172,23 +171,26 @@ nav {
   animation: spininfinite 20s linear infinite;
 }
 
-@keyframes spininfinite{
-  from{transform: rotate(0deg);}
-  to{transform: rotate(360deg);}
+@keyframes spininfinite {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
-
 
 /* Latest Deals */
 
-.latest-deals{
+.latest-deals {
   text-align: center;
 }
 
-.latest-deals-text{
+.latest-deals-text {
   justify-items: center;
 }
 
-.latest-deals-text p{
+.latest-deals-text p {
   text-wrap: wrap;
   max-width: 850px;
   width: 100%;
@@ -267,7 +269,6 @@ nav {
   text-decoration: underline;
   font-weight: 300;
 }  */
-
 
 .latest-deals-container {
   margin-top: 40px;
@@ -389,53 +390,48 @@ nav {
   font-size: 1rem;
 }
 
-
-
 /* Footer Section */
 
-.footer-container{
+.footer-container {
   margin-top: 120px;
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 110px;
-  align-items: start; 
+  align-items: start;
 }
 
-.footer-container .social-media{
+.footer-container .social-media {
   display: flex;
   align-items: center;
   gap: 25px;
 }
 
-.footer-container ul li{
+.footer-container ul li {
   list-style: none;
   margin-bottom: 10px;
 }
 
-.footer-container ul li a{
+.footer-container ul li a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.5);
 }
 
-
-
 /* Media query */
-
 
 @media screen and (max-width: 576px) {
   /* Shared Style */
 
   .btn-primary {
-   padding: auto;
+    padding: auto;
   }
 
   main > section {
-  margin-top: 40px;
- }
+    margin-top: 40px;
+  }
 
- body{
-  width: 100%;
- }
+  body {
+    width: 100%;
+  }
 
   /* Navbar section */
   nav {
@@ -472,7 +468,7 @@ nav {
     font-size: 2.2rem;
   }
 
-  .banner-description { 
+  .banner-description {
     font-size: 1rem;
   }
 
@@ -483,12 +479,12 @@ nav {
     font-size: 1.8rem;
   }
 
-  .section-description{
+  .section-description {
     font-size: 0.8rem;
   }
 
-  .flower-cards{
-    grid-template-columns: repeat(2,1fr);
+  .flower-cards {
+    grid-template-columns: repeat(2, 1fr);
     gap: 8px;
   }
 
@@ -497,7 +493,7 @@ nav {
     width: 100%;
   }
 
-  .flower-card .btn-primary{
+  .flower-card .btn-primary {
     font-size: 0.9rem;
     padding: 8px 12px;
   }
@@ -509,41 +505,41 @@ nav {
     grid-template-rows: auto;
     gap: 0;
   }
-  
+
   .deal-vertical-item img {
     height: 150px;
   }
 
-  .deal-horizontal-item img { 
+  .deal-horizontal-item img {
     height: 150px;
   }
 
   .deal-text-horizontal p {
-  font-size: 1rem;
-  font-weight: bold;
-}
+    font-size: 1rem;
+    font-weight: bold;
+  }
 
-.deal-text-horizontal h4 {
-  font-size: 1rem;
-  text-decoration: underline;
-  font-weight: 300;
-}
-  
+  .deal-text-horizontal h4 {
+    font-size: 1rem;
+    text-decoration: underline;
+    font-weight: 300;
+  }
+
   /* Flower pant */
 
-  .flower-plant{
+  .flower-plant {
     flex-direction: column;
   }
 
-  .badge-img{
+  .badge-img {
     visibility: hidden;
   }
 
-  .flower-store-img{
+  .flower-store-img {
     width: 100%;
   }
 
-  .flower-plant ul li{
+  .flower-plant ul li {
     width: 100%;
   }
 
@@ -568,7 +564,7 @@ nav {
 
   /* Footer section */
 
-  .footer-container{
+  .footer-container {
     margin-top: 60px;
     grid-template-columns: 1fr;
     margin-bottom: 0;
@@ -576,12 +572,11 @@ nav {
     align-content: start;
   }
 
-  .footer-container p{
+  .footer-container p {
     margin-bottom: 0;
   }
 
-  .footer-container ul{
+  .footer-container ul {
     padding-left: 0;
   }
-
 }
