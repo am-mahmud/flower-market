@@ -234,4 +234,22 @@ nav {
     padding: 8px 12px;
   }
 
+
+  /* Flower pant */
+
+  .flower-plant{
+    flex-direction: column;
+  }
+
+  .badge-img{
+    visibility: hidden;
+  }
+
+  .flower-store-img{
+    width: 100%;
+  }
+
+  .flower-plant ul li{
+    width: 100%;
+  }
 }
