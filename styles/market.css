@@ -148,8 +148,8 @@ nav {
 
 .flower-plant {
   justify-content: space-between;
-  gap: 40px;
-  align-items: center;
+  gap: 80px;
+  align-items: start;
 }
 
 .flower-plant ul li {
@@ -429,10 +429,6 @@ nav {
     margin-top: 40px;
   }
 
-  body {
-    width: 100%;
-  }
-
   /* Navbar section */
   nav {
     justify-content: space-between;
@@ -570,6 +566,163 @@ nav {
     margin-bottom: 0;
     gap: 10px;
     align-content: start;
+  }
+
+  .footer-container p {
+    margin-bottom: 0;
+  }
+
+  .footer-container ul {
+    padding-left: 0;
+  }
+}
+
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+ 
+  /* Shared Style */
+  .btn-primary {
+    padding: 10px 20px; 
+  }
+
+  main > section {
+    margin-top: 60px;
+  }
+
+  /* Navbar section */
+  nav {
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-items {
+    gap: 10px; /* Slightly reduce gap */
+  }
+
+  nav .fa-cart-shopping,
+  nav span {
+    font-size: 1.2rem;
+  }
+
+  /* Hero Section */
+  .banner-container {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .banner-container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .banner-items {
+    width: 80%; /* narrower width for medium devices */
+    margin: 0 auto;
+  }
+
+  .banner-title {
+    margin-top: 15px;
+    font-size: 2.8rem;
+  }
+
+  .banner-description {
+    font-size: 1.1rem;
+  }
+
+  /* Our plants section */
+  .section-title {
+    margin-top: 15px;
+    font-size: 2.2rem;
+  }
+
+  .section-description {
+    font-size: 1rem;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .flower-cards {
+    grid-template-columns: repeat(3, 1fr); /* 3 columns for tablets */
+    gap: 12px;
+  }
+
+  .flower-card {
+    max-width: 200px;
+    width: 100%;
+  }
+
+  .flower-card .btn-primary {
+    font-size: 1rem;
+    padding: 10px 16px;
+  }
+
+  /* Latest deal */
+  .latest-deals-container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 15px;
+  }
+
+  .deal-vertical-item img,
+  .deal-horizontal-item img {
+    height: 220px;
+  }
+
+  .deal-text-horizontal p {
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+
+  .deal-text-horizontal h4 {
+    font-size: 1.2rem;
+    text-decoration: underline;
+    font-weight: 300;
+  }
+
+  /* Flower plant */
+  .flower-plant {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .badge-img {
+    display: none;
+  }
+
+  .flower-store-img {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .flower-plant ul li {
+    width: 100%;
+  }
+
+  /* Join us section */
+  .join-us-content {
+    max-width: 85%;
+    margin: 0 auto;
+  }
+
+  .join-us-title {
+    font-size: 1.4rem;
+  }
+
+  .join-us input[type="text"] {
+    width: 65%;
+  }
+
+  .join-us input[type="submit"] {
+    width: 35%;
+    padding: 15px 0;
+  }
+
+  /* Footer section */
+  .footer-container {
+    margin-top: 80px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
   }
 
   .footer-container p {
