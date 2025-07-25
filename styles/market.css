@@ -596,7 +596,7 @@ nav {
   }
 
   .nav-items {
-    gap: 10px; /* Slightly reduce gap */
+    gap: 10px; 
   }
 
   nav .fa-cart-shopping,
@@ -616,7 +616,7 @@ nav {
   }
 
   .banner-items {
-    width: 80%; /* narrower width for medium devices */
+    width: 80%; 
     margin: 0 auto;
   }
 
@@ -629,7 +629,7 @@ nav {
     font-size: 1.1rem;
   }
 
-  /* Our plants section */
+  /* Our plants*/
   .section-title {
     margin-top: 15px;
     font-size: 2.2rem;
@@ -642,7 +642,7 @@ nav {
   }
 
   .flower-cards {
-    grid-template-columns: repeat(3, 1fr); /* 3 columns for tablets */
+    grid-template-columns: repeat(3, 1fr);
     gap: 12px;
   }
 
