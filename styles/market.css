@@ -13,17 +13,17 @@
 }
 
 header {
-  max-width: 1280px;
+  max-width: 1140px;
   margin: 5px auto;
 }
 
 main {
-  max-width: 1280px;
+  max-width: 1140px;
   margin: 0 auto;
 }
 
 footer {
-  max-width: 1280px;
+  max-width: 1140px;
   margin: 0 auto;
 }
 
@@ -60,6 +60,7 @@ main > section {
   padding: 18px 80px;
   border: none;
   font-size: 1rem;
+  width: 100%;
 }
 
 /* Navbar style */
@@ -349,7 +350,7 @@ nav {
 
 .join-us img {
   width: 100%;
-  display: block;
+  /* display: block; */
 }
 
 .join-us-content {
@@ -376,18 +377,17 @@ nav {
 }
 
 .join-us input[type="text"] {
-  width: 400px;
+  width: 70%;
   padding: 15px;
   border: none;
-  outline: none;
   font-size: 1rem;
 }
 
 .join-us input[type="submit"] {
   padding: 15px 30px;
   border: none;
-  cursor: pointer;
   font-size: 1rem;
+  width: 30%;
 }
 
 /* Footer Section */
